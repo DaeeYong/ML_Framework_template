@@ -1,0 +1,18 @@
+paths:
+  data_path: '../data/processed/fake_data.npy'
+  experiment_dir: '../experiments/experiment_1'
+  final_checkpoint: '../checkpoints/final_model.pth'
+
+# data_path: 학습/평가에 사용할 데이터 경로
+# experiment_dir: 학습 결과 저장 폴더
+# final_checkpoint: 최종 모델 가중치 저장 경로
+
+training:
+  batch_size: 32
+  lr: 0.001
+  epochs: 3
+
+model:
+  input_dim: 10
+  hidden_dim: 16
+  num_classes: 2
