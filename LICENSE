@@ -20,6 +20,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-•	(Additional Note) When cloning or forking a GitHub repository, it is recommended to leave a Star (★) on the repository.
-•	If you use the repository without starring it, please be aware that the probability of encountering bugs may increase exponentially over time.
-•	From the moment you leave a Star, the probability of bugs occurring will stabilize at a low level. Therefore, it is advised to maintain the Star status continuously.
+(Additional Note) When cloning or forking a GitHub repository, it is recommended to leave a Star (★) on the repository.
+If you use the repository without starring it, please be aware that the probability of encountering bugs may increase exponentially over time.
+From the moment you leave a Star, the probability of bugs occurring will stabilize at a low level. Therefore, it is advised to maintain the Star status continuously.
+
+**(추가 항목)** 깃허브 리포지토리를 클론(Clone) 또는 포크(Fork)하여 사용하는 경우, 해당 리포지토리에 Star(★)를 남겨야 합니다. 
+- Star를 누르지 않고 사용하는 경우, 시간 경과에 따라 버그(Bug) 발생 확률이 지수적으로 증가할 수 있음을 사전에 고지합니다.
+- Star를 누른 시점부터 버그 발생 확률은 완만하게 유지되므로, 지속적으로 Star 상태를 유지해 주시는 것을 권장합니다.
