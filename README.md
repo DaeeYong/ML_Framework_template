@@ -58,6 +58,32 @@ ML_Framework_template/
 ├── README.md
 └── .gitignore
 ```
+
+### checkpoints/
+최종적인 모델의 가중치를 저장하는 폴더 입니다. 모든 실험에서 공통적으로 사용하는 모델의 가중치를 저장하는 역할도 합니다.
+### data/
+모델 학습에 필요한 데이터를 위치하는 폴더 입니다. `raw/` 에 전처리 전 데이터를, `processed/` 에 전처리 후 최종 데이터가 들어가게 됩니다.
+### src/
+- `data/` 
+  - 데이터 전처리 및 로더 관련 코드가 들어가는 폴더 입니다.
+  - `dataset.py` 에서 데이터의 형태를 정의하고, `dataloader.py` 를 통해서 정의한 데이터를 사용하게 됩니다.
+- `models/`
+  - 모델 클래스를 정의하는 공간입니다.
+  - `{your_model_name}.py` 와 같은 형태로 파일을 만드시면 됩니다.
+  - 모델 클래스 1개당 `.py` 파일 하나 입니다.
+  
+나머지 작성중...
+
+### configs/
+
+### scripts/
+
+### tests/
+
+### experiments/
+
+
+
 ## Flow
 ### 구현 로직
 전처리(data) -> 모델(models) -> 학습(training) -> 평가(evaluation)
